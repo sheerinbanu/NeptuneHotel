@@ -30,11 +30,11 @@
       <Label layoutX="50.0" layoutY="231.0" prefHeight="18.0" prefWidth="83.0" text="EMAIL" textFill="#edeaea" />
       <Label layoutX="51.0" layoutY="282.0" prefHeight="18.0" prefWidth="117.0" text="ADRESSE" textFill="#edeaea" />
       <Label layoutX="51.0" layoutY="326.0" prefHeight="18.0" prefWidth="117.0" text="TEL" textFill="#edeaea" />
-      <TextField layoutX="145.0" layoutY="136.0" />
-      <TextField layoutX="146.0" layoutY="173.0" />
-      <TextField layoutX="146.0" layoutY="228.0" prefHeight="25.0" prefWidth="276.0" />
-      <TextField layoutX="147.0" layoutY="279.0" prefHeight="25.0" prefWidth="434.0" />
-      <TextField layoutX="146.0" layoutY="316.0" />
-      <Button fx:id="valider" layoutX="209.0" layoutY="361.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="179.0" text="valider" />
+      <TextField fx:id="nom" layoutX="145.0" layoutY="136.0" />
+      <TextField fx:id="prenom" layoutX="146.0" layoutY="173.0" />
+      <TextField fx:id="email" layoutX="146.0" layoutY="228.0" prefHeight="25.0" prefWidth="276.0" />
+      <TextField fx:id="adresse" layoutX="147.0" layoutY="279.0" prefHeight="25.0" prefWidth="434.0" />
+      <TextField fx:id="tel" layoutX="146.0" layoutY="316.0" />
+      <Button fx:id="valider" layoutX="209.0" layoutY="361.0" mnemonicParsing="false" onAction="#valider" prefHeight="31.0" prefWidth="179.0" text="valider" />
    </children>
 </AnchorPane>
