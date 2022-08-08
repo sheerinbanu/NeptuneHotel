@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="RoomDetailController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f4f6f8" height="58.0" stroke="BLACK" strokeType="INSIDE" width="600.0" />
+      <Rectangle arcHeight="5.0" arcWidth="4.0" fill="#0a2f2a" height="3.0" layoutX="17.0" layoutY="29.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+      <Rectangle arcHeight="5.0" arcWidth="4.0" fill="#0a2f2a" height="3.0" layoutX="17.0" layoutY="36.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+      <Rectangle arcHeight="5.0" arcWidth="4.0" fill="#0a2f2a" height="3.0" layoutX="17.0" layoutY="22.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+      <Circle fill="#0a2f2a" layoutX="300.0" layoutY="30.0" radius="22.0" stroke="BLACK" strokeType="INSIDE" />
+      <Label alignment="CENTER" layoutX="286.0" layoutY="11.0" prefHeight="36.0" prefWidth="28.0" text="N" textFill="#f4efef">
+         <font>
+            <Font name="French Script MT" size="18.0" />
+         </font>
+      </Label>
+      <AnchorPane layoutY="58.0" prefHeight="342.0" prefWidth="600.0" style="-fx-background-color: #22706b;">
+         <children>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1b4a47" height="200.0" layoutX="362.0" layoutY="62.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
+            <Label layoutX="373.0" layoutY="236.0" prefHeight="17.0" prefWidth="188.0" text="PRIX ">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Text layoutX="378.0" layoutY="91.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Réserver cette chambre" wrappingWidth="178.6666259765625" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#22706b" height="25.0" layoutX="375.0" layoutY="115.0" stroke="BLACK" strokeType="INSIDE" width="76.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#22706b" height="25.0" layoutX="468.0" layoutY="115.0" stroke="BLACK" strokeType="INSIDE" width="76.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#22706b" height="25.0" layoutX="380.0" layoutY="171.0" stroke="BLACK" strokeType="INSIDE" width="44.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#22706b" height="25.0" layoutX="437.0" layoutY="171.0" stroke="BLACK" strokeType="INSIDE" width="44.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#22706b" height="25.0" layoutX="496.0" layoutY="171.0" stroke="BLACK" strokeType="INSIDE" width="44.0" />
+            <ImageView fitHeight="209.0" fitWidth="305.0" layoutX="14.0" layoutY="67.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/chb2.jpg" />
+               </image>
+            </ImageView>
+            <Button fx:id="reserver" layoutX="423.0" layoutY="288.0" mnemonicParsing="false" onAction="#reserver" prefHeight="25.0" prefWidth="95.0" text="réserver">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="17.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <Button layoutX="507.0" layoutY="17.0" mnemonicParsing="false" onAction="#retourAccueil" text="Accueil" textFill="#153123" />
+   </children>
+</AnchorPane>
